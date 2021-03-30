@@ -1,0 +1,90 @@
+@import url(reset.css);
+@import url(../icons/style.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --graylight: #f3f3f3;
+  --gray: #d5d5d5;
+  --graydark: #828282;
+  --blue: #4285f4;
+  --greenlight: #cde5d3;
+  --green: #34a853;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+  height: 100%;
+  background-color: var(--graydark);
+}
+.container {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 700px;
+  background-color: var(--graylight);
+}
+nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+nav h1 {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+nav a {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  z-index: 0;
+  font-size: 30px;
+  color: white;
+}
+nav a::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: -1;
+  height: 40px;
+  width: 40px;
+  border-radius: 30%;
+  background-color: var(--blue);
+}
+main {
+  margin: 30px;
+}
+main h2 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+main ul li {
+  position: relative;
+  margin-bottom: 20px;
+  background-color: white;
+}
+main ul li a {
+  display: block;
+  padding: 15px 40px;
+}
+
+.checkmarkicon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 22px;
+  color: var(--gray);
+}
+.checked {
+  background-color: var(--greenlight);
+}
+.checked .checkmarkicon {
+  color: var(--green);
+}
+.checked span {
+  text-decoration: line-through;
+}
