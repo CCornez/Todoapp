@@ -66,6 +66,7 @@ main ul li {
   position: relative;
   margin-bottom: 20px;
   background-color: white;
+  border-radius: 50px;
 }
 main ul li a {
   display: block;
@@ -81,6 +82,7 @@ main ul li a {
 }
 .checked {
   background-color: var(--greenlight);
+  border-radius: 50px;
 }
 .checked .checkmarkicon {
   color: var(--green);
