@@ -43,9 +43,14 @@ const showList = () => {
 };
 
 const addInList = () => {
-  taskList.push(formInputSelector.value);
-  formInputSelector.value = "";
-  showList();
+  let v = formInputSelector.value.trim();
+  if (v.length > 0) {
+    taskList.push(v);
+    formInputSelector.value = "";
+    showList();
+  } else {
+    formInputSelector.value = "";
+  }
 };
 
 formButtonSelector.addEventListener("click", preventDefault);
