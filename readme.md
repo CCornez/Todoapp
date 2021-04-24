@@ -4,4 +4,4 @@
 
 You can see the project [here](http://www.fe-cc-todo.surge.sh).
 
-> I am currently working on Google Chrome
+> I am currently working in Google Chrome
