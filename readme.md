@@ -1,5 +1,7 @@
 # Todo app
 
-## De bedoeling van dit project is dat ik wat inoefen op html & css. Het is ook de bedoeling om Javascript toe te voegen en het hier ook in te oefenen.
+## The purpose of this project is to practise HTML & CSS. I'm also adding Javascript to practise that too.
 
-U kunt [hier](http://www.fe-cc-todo.surge.sh) het project bekijken
+You can see the project [here](http://www.fe-cc-todo.surge.sh).
+
+> I am currently working on Google Chrome
