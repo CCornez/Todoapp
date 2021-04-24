@@ -36,7 +36,6 @@ const addEventListenerInList = () => {
         : (taskList.filter(
             (v) => v.task === e.target.outerText
           )[0].checked = false);
-      console.log(taskList);
     });
     v.addEventListener("click", filterTask);
   });
